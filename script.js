@@ -9,6 +9,7 @@ const btn = document.querySelector('button')
 
 
 function btnListener() {
+    container.replaceChildren();
     var prompted = prompt("Please select your canvas width in squares")
     prompted = ++prompted
     var length = (700/prompted)
